@@ -1,0 +1,59 @@
+# Template svd parameter file for social-force vehicle dynamics simulation...
+#
+# Following parameters apply to all compile options...
+#
+bReadLatest	= 1		# =1: read the latest file
+nDigits		= 9		# output file digit mask; compare with nSteps
+nSteps		= 120000000	# number of steps in intervals of dDelta
+iStartStep	= 0		# use this to change starting step numbering
+dDelta_gas	= 1e-5		# integration time step for gas dynamics in units of s
+nDelta_all	= 1000000		# temperature update time step = nDelta_all * dDelta_gas
+dError_eq	= 4e-5		# allocated threshold for deciding whether gas equilibrium is achieved
+achDataSubPath  = .             # extension to PTOOLS_DATA_PATH, if used
+achNodeInFile	= 133P_ellipsoid.txt	# node positions
+achStateInFile	= 133P_ellipsoid_0cm.gfdm	# [temperature, gas, ice] state of each node
+#achSfactorInFile = input.s	# self-shadowing S partial factor
+#achFfactorInFile = input.f	# self-heating F factor
+achOutName	= gfdm		# output file prefix
+#
+#
+# Output control...
+#
+nOutInterval	= 10000		# output file interval in timesteps
+#
+#
+# Body physical parameters
+#
+dP_rot		= 3.471		# rotational period [h]
+dObliquity	= 0.0		# obliquity of spin axis [deg]
+dSolstice	= 0.0		# solstice true anomaly [deg]
+df_dust		= 0.55 		# dust volume fraction
+dRho_h2o_ice	= 933		# compact ice density [kg/m^3]
+dRho_dust	= 2000		# compact dust density [kg/m^3]
+#
+#
+# Body thermal physical parameters
+#
+dA_B		= 0.04		# Bond albedo
+dEpsilon	= 0.95		# bolometric emissivity
+#
+#
+# Body gas dynamics parameters
+#
+dTortuosity	= 2		# channel tortuosity
+dL_pore		= 0.001		# pore length [m]
+dR_pore		= 0.0001	# pore radius [m]
+dR_dust		= 0.001		# dust particle radius [m]
+dBackflux	= 0.1		# surface backflux fraction
+dAlpha_s	= 1.0		# sublimation coefficient
+dAlpha_c	= 1.0		# condensation coefficient
+#
+#
+# Orbital elements
+#
+da		= 3.163		# semi-major axis [AU]
+de		= 0.159		# eccentricity
+di		= 0.0		# inclination [deg]
+dOmega		= 0.0		# ascending node [deg] 
+domega		= 0.0		# argument of periapsis [deg]
+df0		= 180.0		# true anomaly at 0 step [deg]

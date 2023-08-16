@@ -1,0 +1,206 @@
+USE_GAS open.
+GTasb3D running on 3 processors
+
+Read simulation general parameters from gfdm.dat
+bReadLatest: 1
+nDigits: 9
+nSteps: 120000000
+iStartStep: 0
+dDelta_gas: 1e-05
+nDelta_all: 1000000
+dDelta: 10
+dError_eq: 4e-05
+achDataSubPath: .
+achNodeInFile: ./133P_ellipsoid.txt
+achStateInFile: ./133P_ellipsoid_0cm.gfdm
+achOutName: gfdm
+nOutInterval: 10
+dP_rot: 3.471 hr
+dObliquity: 0
+dSolstice: 0
+df_dust: 0.55
+dRho_h2o_ice: 933
+dRho_dust: 2000
+dA_B: 0.04
+dEpsilon: 0.95
+dTortuosity: 2
+dL_pore: 0.001
+dR_pore: 0.0001
+dR_dust: 0.001
+dBackflux: 0.1
+dAlpha_s: 1
+dAlpha_c: 1
+da: 3.163
+de: 0.159
+di: 0
+dOmega: 0
+domega: 0
+df0: 180
+Simulation general parameters have been successfully initialized.
+
+Read node position information from ./133P_ellipsoid.txt.
+86423 nodes in total (with 3922 surface nodes).
+
+Read node state information from ./result/gfdm.000007430.
+Initial df_ice[0]: 0.24, df_dust:0.55
+dD_kn_eff: -8.82259e-05
+dHertz: 0.924038
+Conductivity at T = 180 K: 0.876304 W/(m.K)
+Dust heat capacity at T = 180 K: 545.278 J/(kg.K)
+Thermal inertia at T = 180 K: 898.787 W/(m.K)
+Diurnal thermal skin depth (assuming T = 180 K): 0.0434797 m
+Annual thermal skin depth (assuming T = 180 K): 5.18249 m
+df at initial time (0.00235438 yr): 180.111 deg
+Possible maximum dDelta: 26.2993 s.
+The input elapsed time: 30.376585960388184 s.
+Simulation starts.
+The elapsed time for 10 runs: 2.097790002822876 s.
+The elapsed time for 10 runs: 1.686206817626953 s.
+The elapsed time for 10 runs: 1.434622049331665 s.
+The elapsed time for 10 runs: 1.198670148849487 s.
+The elapsed time for 10 runs: 1.147380828857422 s.
+The elapsed time for 10 runs: 1.124026060104370 s.
+The elapsed time for 10 runs: 1.196135997772217 s.
+The elapsed time for 10 runs: 1.207777023315430 s.
+The elapsed time for 10 runs: 1.314141988754272 s.
+The elapsed time for 10 runs: 1.408776998519897 s.
+The elapsed time for 10 runs: 1.939927101135254 s.
+The elapsed time for 10 runs: 1.252744913101196 s.
+The elapsed time for 10 runs: 1.268623113632202 s.
+The elapsed time for 10 runs: 1.571694850921631 s.
+The elapsed time for 10 runs: 1.362928152084351 s.
+The elapsed time for 10 runs: 1.315538167953491 s.
+The elapsed time for 10 runs: 1.361784934997559 s.
+The elapsed time for 10 runs: 1.241008996963501 s.
+The elapsed time for 10 runs: 1.411704063415527 s.
+The elapsed time for 10 runs: 1.105522871017456 s.
+The elapsed time for 10 runs: 1.164403915405273 s.
+The elapsed time for 10 runs: 1.191600084304810 s.
+The elapsed time for 10 runs: 1.112398862838745 s.
+The elapsed time for 10 runs: 1.086606979370117 s.
+The elapsed time for 10 runs: 1.118007898330688 s.
+The elapsed time for 10 runs: 1.138833999633789 s.
+The elapsed time for 10 runs: 1.151013851165771 s.
+The elapsed time for 10 runs: 1.127172946929932 s.
+The elapsed time for 10 runs: 1.110859870910645 s.
+The elapsed time for 10 runs: 1.277503967285156 s.
+The elapsed time for 10 runs: 1.432920932769775 s.
+The elapsed time for 10 runs: 1.340029001235962 s.
+The elapsed time for 10 runs: 1.207718133926392 s.
+The elapsed time for 10 runs: 1.353651046752930 s.
+The elapsed time for 10 runs: 1.255071878433228 s.
+The elapsed time for 10 runs: 1.424551010131836 s.
+The elapsed time for 10 runs: 1.246428966522217 s.
+The elapsed time for 10 runs: 1.059582948684692 s.
+The elapsed time for 10 runs: 1.138885021209717 s.
+The elapsed time for 10 runs: 1.093393087387085 s.
+The elapsed time for 10 runs: 1.091922044754028 s.
+The elapsed time for 10 runs: 1.120131015777588 s.
+The elapsed time for 10 runs: 1.136101961135864 s.
+The elapsed time for 10 runs: 1.142376184463501 s.
+The elapsed time for 10 runs: 0.982886075973511 s.
+The elapsed time for 10 runs: 0.866515874862671 s.
+The elapsed time for 10 runs: 0.747905969619751 s.
+The elapsed time for 10 runs: 0.748552083969116 s.
+The elapsed time for 10 runs: 0.806288003921509 s.
+The elapsed time for 10 runs: 0.749583959579468 s.
+The elapsed time for 10 runs: 0.709302902221680 s.
+The elapsed time for 10 runs: 0.729012012481689 s.
+The elapsed time for 10 runs: 0.770853042602539 s.
+The elapsed time for 10 runs: 0.810683965682983 s.
+The elapsed time for 10 runs: 0.723613023757935 s.
+The elapsed time for 10 runs: 0.766921997070312 s.
+The elapsed time for 10 runs: 0.859853029251099 s.
+The elapsed time for 10 runs: 0.799205064773560 s.
+The elapsed time for 10 runs: 0.784783124923706 s.
+The elapsed time for 10 runs: 0.764449119567871 s.
+The elapsed time for 10 runs: 0.745404005050659 s.
+The elapsed time for 10 runs: 0.771770000457764 s.
+The elapsed time for 10 runs: 0.738178014755249 s.
+The elapsed time for 10 runs: 0.752037048339844 s.
+The elapsed time for 10 runs: 0.711088180541992 s.
+The elapsed time for 10 runs: 0.801023006439209 s.
+The elapsed time for 10 runs: 0.840430974960327 s.
+The elapsed time for 10 runs: 0.733276128768921 s.
+The elapsed time for 10 runs: 0.744909048080444 s.
+The elapsed time for 10 runs: 0.767365932464600 s.
+The elapsed time for 10 runs: 0.795212984085083 s.
+The elapsed time for 10 runs: 0.792687177658081 s.
+The elapsed time for 10 runs: 0.779736995697021 s.
+The elapsed time for 10 runs: 0.896210193634033 s.
+The elapsed time for 10 runs: 0.771652936935425 s.
+The elapsed time for 10 runs: 0.917180061340332 s.
+The elapsed time for 10 runs: 0.763466835021973 s.
+The elapsed time for 10 runs: 0.721174955368042 s.
+The elapsed time for 10 runs: 0.766407966613770 s.
+The elapsed time for 10 runs: 0.799291133880615 s.
+The elapsed time for 10 runs: 0.779062032699585 s.
+The elapsed time for 10 runs: 0.796750068664551 s.
+The elapsed time for 10 runs: 0.761970996856689 s.
+The elapsed time for 10 runs: 0.699501037597656 s.
+The elapsed time for 10 runs: 0.713253021240234 s.
+The elapsed time for 10 runs: 0.715173959732056 s.
+The elapsed time for 10 runs: 0.904414892196655 s.
+The elapsed time for 10 runs: 0.860118150711060 s.
+The elapsed time for 10 runs: 0.719452142715454 s.
+The elapsed time for 10 runs: 0.715567111968994 s.
+The elapsed time for 10 runs: 0.725579023361206 s.
+The elapsed time for 10 runs: 0.695853948593140 s.
+The elapsed time for 10 runs: 0.725027084350586 s.
+The elapsed time for 10 runs: 0.697569131851196 s.
+The elapsed time for 10 runs: 0.724982976913452 s.
+The elapsed time for 10 runs: 0.856168031692505 s.
+The elapsed time for 10 runs: 0.922458887100220 s.
+The elapsed time for 10 runs: 0.760761976242065 s.
+The elapsed time for 10 runs: 0.730101823806763 s.
+The elapsed time for 10 runs: 0.923247098922729 s.
+The elapsed time for 10 runs: 0.958114147186279 s.
+The elapsed time for 10 runs: 1.057847976684570 s.
+The elapsed time for 10 runs: 0.844252109527588 s.
+The elapsed time for 10 runs: 0.895938158035278 s.
+The elapsed time for 10 runs: 0.738744974136353 s.
+The elapsed time for 10 runs: 0.733705043792725 s.
+The elapsed time for 10 runs: 0.748036861419678 s.
+The elapsed time for 10 runs: 0.802845954895020 s.
+The elapsed time for 10 runs: 0.805924892425537 s.
+The elapsed time for 10 runs: 0.749400854110718 s.
+The elapsed time for 10 runs: 0.758976221084595 s.
+The elapsed time for 10 runs: 0.763635158538818 s.
+The elapsed time for 10 runs: 0.776055097579956 s.
+The elapsed time for 10 runs: 0.779166936874390 s.
+The elapsed time for 10 runs: 0.686964035034180 s.
+The elapsed time for 10 runs: 0.713225126266479 s.
+The elapsed time for 10 runs: 0.707300901412964 s.
+The elapsed time for 10 runs: 0.707459926605225 s.
+The elapsed time for 10 runs: 0.709242105484009 s.
+The elapsed time for 10 runs: 0.709906101226807 s.
+The elapsed time for 10 runs: 0.727627038955688 s.
+The elapsed time for 10 runs: 0.775572061538696 s.
+The elapsed time for 10 runs: 0.740295886993408 s.
+The elapsed time for 10 runs: 0.715439796447754 s.
+The elapsed time for 10 runs: 0.796953916549683 s.
+The elapsed time for 10 runs: 0.737619161605835 s.
+The elapsed time for 10 runs: 0.807646989822388 s.
+The elapsed time for 10 runs: 0.860142946243286 s.
+The elapsed time for 10 runs: 0.823747158050537 s.
+The elapsed time for 10 runs: 0.737210988998413 s.
+The elapsed time for 10 runs: 0.889558076858521 s.
+The elapsed time for 10 runs: 0.758338928222656 s.
+The elapsed time for 10 runs: 0.841685056686401 s.
+The elapsed time for 10 runs: 0.873090028762817 s.
+The elapsed time for 10 runs: 0.802881956100464 s.
+The elapsed time for 10 runs: 0.750728130340576 s.
+The elapsed time for 10 runs: 0.739542961120605 s.
+The elapsed time for 10 runs: 0.714482069015503 s.
+The elapsed time for 10 runs: 0.723726987838745 s.
+The elapsed time for 10 runs: 0.700667142868042 s.
+The elapsed time for 10 runs: 0.748636007308960 s.
+The elapsed time for 10 runs: 0.779199123382568 s.
+The elapsed time for 10 runs: 0.755692958831787 s.
+The elapsed time for 10 runs: 0.775539875030518 s.
+The elapsed time for 10 runs: 0.814543008804321 s.
+The elapsed time for 10 runs: 0.771926879882812 s.
+The elapsed time for 10 runs: 0.802409887313843 s.
+The elapsed time for 10 runs: 0.849677085876465 s.
+The elapsed time for 10 runs: 0.728857994079590 s.
+The elapsed time for 10 runs: 0.753664970397949 s.

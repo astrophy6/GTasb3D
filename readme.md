@@ -3,7 +3,7 @@
 GTasb3D is a 3D thermophysical code using the General finite difference model to simulate the Thermal evolution of active small bodies. The features of this code includes:
 * Capable of simulating various thermophysical processes involved in the transfer of heat fluxes, the sublimation/condensation of ice, and the diffusion of gas through a porous matrix within an icy body.
 * Applicable to modeling a body with various kinds of shapes.
-* Parallelized implimentaion in C++ with reasonable accuracy and efficiency.
+* Parallelized implimentation in C++ with reasonable accuracy and efficiency.
 More details on the mathematical formulate, code architecture, and validation tests can be found in <a href="https://doi.org/10.3847/PSJ/acc4c4">Zhang \& Hartzell (2023)</a>
 
 ## About this repository
